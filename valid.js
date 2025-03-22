@@ -40,6 +40,8 @@ function validform(f) {
         alert("not valid");
         return false;
     }
+    alert("Tất cả dữ liệu hợp lệ");
+    return false;
 }
 function StringMatch(txt, reg) {
     return reg.test(txt.value);
